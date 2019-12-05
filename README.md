@@ -3,6 +3,9 @@
 ここで定常状態とは時間的に一定して変わらない状態のことを言います。
 電気回路においては特徴的な過渡現象が発生し、簡単な回路であれば解析も容易なのでシミュレーションしてみました。
 
+# 目的
+今回の目的はシミュレーションを通して進み位相、遅れ位相の状態を可視化しその概念を理解することです。
+
 # 対象とする回路と回路方程式
 ## 電源
 電源には正弦波を用います。瞬時式は
@@ -85,18 +88,18 @@ i(t)=\frac{\omega CV_m}{\sqrt{1+\left(\omega CR\right)^2}}\left\{\cos\left(\omeg
 $$\phi= \tan^{-1} \omega CR $$
 
 #結果
-## R
+## Rのみの回路
 同相（グラフが重なっている）
 
 ![untitled.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/138730/e0ae53d3-e319-8a1f-d099-3632ff3d969b.jpeg)
 
-## RL
+## RL直列回路
 遅れ位相
 
 
 ![untitled.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/138730/a4ae8699-6976-1f8f-ef78-d49e4f538558.jpeg)
 
-## RC
+## RC直列回路
 進み位相
 
 ![untitled.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/138730/eb256d00-034b-bb0f-9024-18c28da9b10e.jpeg)
